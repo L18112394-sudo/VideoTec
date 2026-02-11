@@ -1,0 +1,192 @@
+/* Quita márgenes */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("fondo1.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+    color: white;
+}
+
+/* Título */
+h1 {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    margin: 0;
+}
+
+/* Contenedor de imágenes */
+.imagenes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Tamaño de imágenes */
+.imagenes img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+/* Video */
+.video {
+    margin-top: 30px;
+}
+
+video {
+    width: 900px;
+    max-width: 90%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.noticia {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.noticia h2 {
+    margin-top: 0;
+    color: #ffcc00;
+}
+
+.noticia p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contenedor alineado a la izquierda */
+.contenedor {
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+/* Imágenes alineadas a la izquierda */
+.imagenes {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+/* Botón alineado a la izquierda */
+button {
+    display: block;
+    margin: 20px 0;
+}
+
+/* Noticia alineada a la izquierda */
+.noticia {
+    text-align: left;
+}
+.noticia {
+    text-align: left;
+    margin: 30px 0;
+}
+
+/* Video alineado a la izquierda */
+.video {
+    text-align: left;
+}
+
+
+.layout {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+
+/* Columna izquierda */
+.col-izquierda {
+    width: 60%;
+}
+
+/* Columna derecha */
+.col-derecha {
+    width: 40%;
+}
+
+.img-re {
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+/*ubicacion*/
+.ubicacion {
+    width: 60%;           /* más angosto */
+    margin: 10px auto;    /* centrado */
+    padding: 15px;        /* menos espacio interno */
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 12px;
+    font-size: 20px;      /* texto más pequeño */
+}
+
+
+/*contactos*/
+.contacto {
+    margin-top: 10px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 24px;
+}
+
+.contacto button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: darkred;
+}
+
+/*PIE DE PAGINA*/
+footer {
+    margin-top: 80px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 24px;
+}
+/*autores*/
+.autor {
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+    margin-top: 10px;
+}
